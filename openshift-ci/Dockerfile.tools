@@ -9,8 +9,8 @@ ENV LANG=en_US.utf8 \
     PATH=$PATH:$GOPATH/bin \
     GIT_COMMITTER_NAME="KubeSaw" \
     GIT_COMMITTER_EMAIL=devsandbox@redhat.com \
-    GOLANG_VERSION=go1.22.12 \
-    GOLANG_SHA256=4fa4f869b0f7fc6bb1eb2660e74657fbf04cdd290b5aef905585c86051b34d43
+    GOLANG_VERSION=go1.23.11 \
+    GOLANG_SHA256=80899df77459e0b551d2eb8800ad6eb47023b99cccbf8129e7b5786770b948c5
 
 ARG GO_PACKAGE_PATH=github.com/codeready-toolchain/member-operator
 
